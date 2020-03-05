@@ -16,10 +16,10 @@ int main()
 	}
     while(range>0)
     {
-        printf("%d ",num1);  
-        temp = num1; 
-        num1 = num1+num2; 
-        num2 = temp; 
+        printf("%d ",num2);  
+        temp = num2; 
+        num2 = num2+num1; 
+        num1 = temp; 
         range--;
     }
     return 0;
