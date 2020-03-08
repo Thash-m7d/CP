@@ -6,7 +6,7 @@ void main()
     int num1, num2, choice, ans;
     printf("Welcome\nEnter 2 numbers");
     scanf("%d %d", &num1, &num2);
-    printf("Now select the ction you want to perform :\n1-Add\n2-Subtract\n3-Mutiply\n4-Divide");
+    printf("Now select the action you want to perform :\n1-Add\n2-Subtract\n3-Mutiply\n4-Divide");
     scanf("%d", &choice);
     switch(choice)
     {
